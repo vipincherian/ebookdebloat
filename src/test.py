@@ -9,7 +9,7 @@ import sys
 
 print('Test')
 
-file_name =     sys.argv[1 ]
+file_name = sys.argv[1]
 
 x = Epub()
 x.load(file_name)
