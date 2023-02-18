@@ -133,3 +133,5 @@ dmypy.json
 *.epub
 *.zip
 *.xml
+
+activate_venv
