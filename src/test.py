@@ -1,5 +1,5 @@
 '''
-Temporary test file for epub library:w
+Temporary test file for epub library
 
 '''
 # from zipfile import ZipFile
@@ -7,11 +7,11 @@ from ebook import Epub
 import sys
 
 
-print('Test')
+# print('Test')
 
 file_name = sys.argv[1]
 
-x = Epub()
-x.load(file_name)
-
 print(sys.argv)
+
+epub_file = Epub()
+epub_file.load(file_name)
